@@ -1,0 +1,229 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+}
+body
+{
+    background:lightblue ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container
+{
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    min-height: 1000px;
+    background: #fff;
+    margin: 50px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    box-shadow: 0 35px 55px rgba(0, 0, 0, 0.1);
+}
+
+.container .left_side
+{
+ position: relative;
+ background: #003147;
+ padding: 40px;
+}
+.profile
+{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+}
+.contact
+{
+    padding: 8px;
+
+}
+.text
+{
+    font-size: 12px;
+}
+.about h6
+{
+    color: #fff;
+    font-weight: 100;
+}
+.title
+{
+    color:#fff;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+    text-align: left;
+}
+.contact ul
+{
+    position: relative;
+}
+.contact ul li
+{
+    position: relative;
+    list-style: none;
+    margin: 10px 0;
+    cursor: pointer;
+}
+.contact ul li .icon
+{
+    display: inline-block;
+    width: 30px;
+    font-size: 18px;
+    color:#03a9f4;
+}
+.contact ul li span
+{
+    color:#fff;
+    font-weight: 300;
+}
+.atout li
+{
+    margin-bottom: 15px;
+    padding: 1px 0;
+    list-style: none;
+
+}
+.atout h4
+{
+    color: #fff;
+}
+.atout h5
+{
+    color: #fff;
+    font-weight: 500;
+}
+.formation li
+{
+    margin-bottom:15px ;
+    padding: 1px 0;
+    list-style: none;
+
+}
+.formation h4
+{
+    color: white;
+    font-weight: 500;
+}
+.formation h5
+{
+    color: #fff;
+}
+.formation h6
+{
+    color: #fff;
+    font-size:small;
+    font-weight: 500;
+}
+
+.profile .image
+{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.profile .image img
+{
+    position: absolute;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+.container .right_side
+{
+ position: relative;
+ background: #fff;
+ padding: 40px;
+}
+.container .right_side h2
+{
+    color: #1E1E3D;
+    font-size: 1.5em;
+    border-bottom: 2px solid black;
+    padding: 10px 0;
+}
+
+.container .right_side h2.border-top
+{
+  
+    border-top: 2px solid black;
+}
+.container .right_side h2 span
+{
+    font-size: 0.8em;
+    font-weight: 300;
+}
+.container .right_side h2
+{
+    color: #1E1E3D;
+    padding-top: 14px;
+    border-bottom: 2px solid black;
+}
+.container .right_side p
+{
+    color: #1E1E3D;
+    padding-top: 10px;
+    font-size: large;
+
+}
+.container .right_side li
+{
+   
+    color: black;
+    font-weight: 200;
+}
+.element
+{
+    padding-left: 18px;
+}
+
+.list li {
+    margin-left: 18px;
+    margin-top: 10px;
+}
+progress {
+    width: 40%;
+    height: 20px;
+    background-color: #ddd;
+    display: block;
+    margin: 0%;
+  }
+  
+progress::-webkit-progress-bar {
+    background-color: black;
+  }
+progress::-webkit-progress-value { 
+    background-color: #03033a;
+}
+progress::-moz-progress-bar{
+    background-color:#03033a;
+  }
+.progress{
+    margin-top: 10px;
+  }
+.test{
+    font-size: 10px;
+  }
+.matiere {
+    display: flex;
+    justify-content: flex-start;
+}
+.progress {
+    width: 50%;
+}

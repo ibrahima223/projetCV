@@ -157,12 +157,14 @@ body
     font-size: 1.5em;
     border-bottom: 2px solid black;
     padding: 10px 0;
+    text-align:left;
 }
 
 .container .right_side h2.border-top
 {
   
     border-top: 2px solid black;
+    text-align: center;
 }
 .container .right_side h2 span
 {
@@ -199,7 +201,7 @@ body
 }
 progress {
     width: 40%;
-    height: 20px;
+    height: 10px;
     background-color: #ddd;
     display: block;
     margin: 0%;
@@ -209,10 +211,10 @@ progress::-webkit-progress-bar {
     background-color: black;
   }
 progress::-webkit-progress-value { 
-    background-color: #03033a;
+    background-color: #003147;
 }
 progress::-moz-progress-bar{
-    background-color:#03033a;
+    background-color:#003147;
   }
 .progress{
     margin-top: 10px;
@@ -220,10 +222,41 @@ progress::-moz-progress-bar{
 .test{
     font-size: 10px;
   }
-.matiere {
-    display: flex;
-    justify-content: flex-start;
+.progress1, .progress2 {
+    display: inline-block;
+    width: 40%;
+}
+.name{
+    margin-left: 20px;
+}
+.prog{
+    margin-left: 20px;
 }
 .progress {
     width: 50%;
 }
+/* .Titre
+{
+    position: relative;
+    border-left: 2px solid black;
+    margin-left: 10px;
+    
+} */
+.Titre{
+    position: relative;
+    border-left: 2px solid black;
+    margin-left: -20px;
+    
+}
+.col{
+    margin-left: 15px;
+}
+.sous-titre{
+    margin-left: 20px;
+}
+
+.list{
+    margin-left: 25px;
+}
+
+

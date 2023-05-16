@@ -13,7 +13,7 @@ body
     align-items: center;
     min-height: 100vh;
 }
-
+/* Le bloc principal */
 .container
 {
     position: relative;
@@ -26,13 +26,14 @@ body
     grid-template-columns: 1fr 2fr;
     box-shadow: 0 35px 55px rgba(0, 0, 0, 0.1);
 }
-
+/* La partie gauche */
 .container .left_side
 {
  position: relative;
  background: #003147;
  padding: 40px;
 }
+/* La disposition de l'image */
 .profile
 {
     position: relative;
@@ -144,7 +145,7 @@ body
     object-fit: cover;
 }
 
-
+/* La partie de droite */
 .container .right_side
 {
  position: relative;
@@ -235,13 +236,7 @@ progress::-moz-progress-bar{
 .progress {
     width: 50%;
 }
-/* .Titre
-{
-    position: relative;
-    border-left: 2px solid black;
-    margin-left: 10px;
-    
-} */
+
 .Titre{
     position: relative;
     border-left: 2px solid black;
